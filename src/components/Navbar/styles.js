@@ -6,7 +6,8 @@ export default makeStyles((theme) => ({
   appBar: {
     boxShadow: 'none',
     borderBottom: '1px solid rgba(0, 0, 0, 0.12)',
-    backgroundColor : '#99ffff' ,
+    backgroundColor : '#DFD3C3' ,
+    fontfamily: "Times New Roman",
     [theme.breakpoints.up('sm')]: {
       width: `calc(100% - ${drawerWidth}px)`,
       marginLeft: drawerWidth,
@@ -18,9 +19,12 @@ export default makeStyles((theme) => ({
     display: 'flex',
     textDecoration: 'none',
     color : "#000000" ,
+    fontSize: '25px',
+    //fontWeight: 'bold' ,
+    
   },
   image: {
-    marginRight: '10px',
+    marginRight: '15px',
   },
   menuButton: {
     marginRight: theme.spacing(2),

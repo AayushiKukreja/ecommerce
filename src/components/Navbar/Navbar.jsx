@@ -37,7 +37,7 @@ const PrimarySearchAppBar = ({ totalItems }) => {
       <AppBar position="fixed" className={classes.appBar} color="inherit">
         <Toolbar>
           <Typography component={Link} to="/" variant="h5" className={classes.title} >
-            <img src={logo} alt="commerce.js" height="25px" className={classes.image} /> Amazon
+            <img src={logo} alt="commerce.js" height="25px" className={classes.image} /> Shopify
           </Typography>
           <div className={classes.grow} />
           {location.pathname === '/' && (

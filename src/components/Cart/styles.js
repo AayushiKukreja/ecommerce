@@ -27,6 +27,6 @@ export default makeStyles((theme) => ({
     marginTop: '10%',
     width: '100%',
     justifyContent: 'space-between',
-  
+    marginBottom:'7%'
   },
 }));
