@@ -8,6 +8,7 @@ export default makeStyles((theme) => ({
     borderBottom: '1px solid rgba(0, 0, 0, 0.12)',
     backgroundColor : '#DFD3C3' ,
     fontfamily: "Times New Roman",
+    paddingTop:'10px',
     [theme.breakpoints.up('sm')]: {
       width: `calc(100% - ${drawerWidth}px)`,
       marginLeft: drawerWidth,
@@ -20,8 +21,9 @@ export default makeStyles((theme) => ({
     textDecoration: 'none',
     color : "#000000" ,
     fontSize: '25px',
-    //fontWeight: 'bold' ,
-    
+    fontWeight: 'bold' ,
+    fontFamily:'Kaushan Script',
+
   },
   image: {
     marginRight: '15px',
@@ -71,4 +73,26 @@ export default makeStyles((theme) => ({
       width: '20ch',
     },
   },
+  loginDetails:
+  {
+    display: 'flex',
+    textDecoration : 'none' ,
+    listStyle: 'none' ,
+    alignItems: 'center' ,
+    justifyContent :'space-between' ,
+    padding : '3.5px 5px' ,
+    margin: '0 0 3px 0',
+    paddingTop:'8px'
+  },
+  loginImage:
+  {
+   marginRight:'1px' ,
+  },
+  logInOut:
+  {
+    marginLeft: theme.spacing(1),
+    backgroundColor: theme.palette.background.default ,
+    padding:'3px 4.5px'
+  }
+
 }));

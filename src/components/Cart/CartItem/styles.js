@@ -18,7 +18,11 @@ export default makeStyles(() => ({
   buttons: {
     display: 'flex',
     alignItems: 'center',
-  
   },
+  button :
+  {
+    display: 'flex',
+    alignItems: 'center',
+  }
  
 }));

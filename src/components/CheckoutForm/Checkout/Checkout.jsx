@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { CssBaseline, Paper, Stepper, Step, StepLabel, Typography, CircularProgress, Divider, Button } from '@material-ui/core';
 import { Link, useNavigate } from 'react-router-dom';
-
 import { commerce } from '../../../lib/commerce';
 import AddressForm from '../AddressForm';
 import PaymentForm from '../PaymentForm';
@@ -100,12 +99,12 @@ setIsFinished(true) ;
             {steps.map((label) => (
               <Step key={label}>
                 <StepLabel>{label}</StepLabel>
-              </Step>
+              </Step> 
             ))}
           </Stepper>
           {activeStep === steps.length ? <Confirmation /> : checkoutToken && <Form />}
         </Paper>
-      </main>
+      </main> 
     </>
   );
 };
